@@ -1,3 +1,4 @@
+
 drop index carte_graphique_pk;
 
 drop table carte_graphique;
@@ -8,9 +9,11 @@ drop index configuration_pk;
 
 drop table configuration;
 
-drop index mode_fk;
+drop index conf_recommander_fk;
 
-drop index plateforme_fk;
+drop index conf_min_requis_fk;
+
+drop index mode_fk;
 
 drop index assoc_type_jeux_fk;
 
@@ -21,6 +24,14 @@ drop table jeuxvideo;
 drop index mode_de_jeux_pk;
 
 drop table mode_de_jeux;
+
+drop index plateforme2_fk;
+
+drop index plateforme_fk;
+
+drop index plateforme_pk;
+
+drop table plateforme;
 
 drop index plateforme_de_jeux_pk;
 
